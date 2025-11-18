@@ -1,13 +1,13 @@
 import java.util.Scanner;
 public class SoftwarearenGarapenaEskakizunOperazionalakProgramaInformatikoa {
-    public static void main(String[] args){
-      Scanner sc = new Scanner(System.in);
+    public static void main(String[] args){ //args = String[0]@9
+      Scanner sc = new Scanner(System.in);//sc = Scanner@16
       System.out.println("Aukeratu bat:");
       System.out.println("(1)Programa informatikoa");
       System.out.println("(2)Eskakizun operazionalak");
-      int aukera = sc.nextInt();
+      int aukera = sc.nextInt();// aukera = 1, sc = scanner@16
 
-      if(aukera == 1){
+      if(aukera == 1){ //aukera = 1
         System.out.println("Programa informatikoa:");
         System.out.println("Hasiera batean programatzeko modua oso desberdina zen");
         System.out.println("kode binarioak erabiltzen ziren programatzeko");
